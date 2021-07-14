@@ -1,0 +1,33 @@
+name: login
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.12+4
+  rounded_loading_button: ^1.0.18
+  flutter_launcher_icons: ^0.8.1  
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path_ios: 'lib/assets/icon/icone-aplicativo.jpg'
+  image_path_android: 'lib/assets/icon/icone-aplicativo.jpg'
+  android: true
+  ios: true    
+
+flutter:
+
+  uses-material-design: true
+
+ 
