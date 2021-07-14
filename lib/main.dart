@@ -2,7 +2,8 @@
 * Author: Leonardo Cruz
 * */
 import 'package:flutter/material.dart';
-import 'package:login/routes/routes.dart';
+import 'package:login/pages/login.dart';
+import 'package:login/pages/home.dart';
 
 void main() => runApp(App());
 class App extends StatelessWidget {
@@ -11,14 +12,16 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'App',
+      title: 'Login',
       theme: ThemeData(
-        primaryColor: Colors.black,
-        primaryColorDark: Colors.black,
-        accentColor: Colors.blue
+        primaryColor: Colors.white,
+        primaryColorDark: Colors.white,
       ),
       initialRoute: '/',
-      onGenerateRoute: Routes(),
+      routes: {
+        '/': (context) => LoginPage(),
+        '/home': (context) => HomePage(),
+      }
     );
   }
 }
