@@ -3,4 +3,4 @@
 Apresento uma tela de login totalmente personalizada, que visa mostrar como se pode manter o usuário logado mesmo que o aplicativo seja fechado.
 
 
-<img src="/lib/assets/gif/apresentacao.git" alt="Apresentação" style="max-width:100%;">
+<img src="https://github.com/LeonardoooCruzzz/login-flutter/blob/master/lib/assets/gif/apresentacao.gif" alt="Apresentação" style="max-width:100%;">
